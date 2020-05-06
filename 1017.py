@@ -1,0 +1,5 @@
+tempoGasto = int(input())
+velMedia = int(input())
+distancia = (tempoGasto*velMedia)
+qtdGasolina = (distancia/12)
+print('%.3f'%qtdGasolina)
